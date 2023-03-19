@@ -1,0 +1,9 @@
+#main{
+    height: 100px;
+    background-color: brown;
+    border: 2px solid blue;
+    position: sticky;
+    z-index: -200;
+    top: 0;
+    left: 0;
+}

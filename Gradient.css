@@ -1,0 +1,8 @@
+#main{
+    height:400px;
+    width:600px;
+    border:2px solid black;
+    margin:100px auto;
+    box-shadow:0px 0px 20px black;
+    background-image: conic-gradient(red,blue,green,black,red);
+}

@@ -1,0 +1,64 @@
+#Shruti
+{
+    display: flex;
+    height:600px;
+    width:100%;
+    justify-content: space-between;
+}
+#a div
+{
+    height:100px;
+    width:100px;
+    border: 2px solid darkviolet;
+}
+#p{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#a1:hover
+{
+    border:2px solid crimson;
+    background-color: dodgerblue;
+}
+#a2:hover
+{
+    border:2px solid blue;
+    background-color: crimson;
+}
+#a3:hover
+{
+    border:2px solid darkred;
+    background-color: yellow;
+}
+#a4:hover
+{
+    border:2px solid cornflowerblue;
+    background-color: purple;
+}
+#p div
+{
+    height: 200px;
+    width: 200px;
+    border:2px solid blue ;
+}
+#p1:hover
+{
+    background-image: url(https://i.pinimg.com/originals/ca/2c/44/ca2c443f8dd100fc407b9fa97c86f324.jpg) ;
+    background-size: cover;
+}
+#p2:hover
+{
+    background-image:url(https://i.pinimg.com/originals/09/3a/c3/093ac3811dcd4f170d91df02995905fe.jpg);
+    background-size: cover;
+}
+#p3:hover
+{
+    background-image:url(https://rukminim1.flixcart.com/image/416/416/k1pbpu80/doll-doll-house/b/f/s/dreamtopia-royal-ball-princess-doll-barbie-original-imafh848ckfmt4py.jpeg?q=70) ;
+    background-size: cover;
+}
+#p4:hover
+{
+    background-image:url(https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2013/11/28/1385638607114/Frozen-007.jpg?width=465&quality=85&dpr=1&s=none)  ;
+    background-size: cover;
+}

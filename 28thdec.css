@@ -1,0 +1,18 @@
+#main{
+    height:600px ;
+    width:600px;
+    border:2px solid black;
+    display: grid;
+    justify-content: space-around;
+    align-content: space-around;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+}
+#main>div{
+    height: 100px;
+    width:100px;
+    border:2px solid black;
+    background-image: url(https://i.pinimg.com/originals/45/f4/81/45f4818686e5b10f64434b446a90b5fe.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}

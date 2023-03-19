@@ -1,0 +1,23 @@
+#a1{
+    height: 300px;
+    width: 300px;
+    border: solid 2px black;
+    background-color: aqua;
+    border-radius: 21%;
+    border-top-left-radius: 21%;
+}
+#a2{
+    height: 200px;
+    width: 200px;
+    border-top: 50px solid aqua;
+    border-left: 50px solid aqua;
+    background-color: brown;
+    border-top-left-radius: 25%;
+}
+#a3{
+    height: 100px;
+    width: 100px;
+    border-top: 50px solid brown;
+    border-left: 50px solid brown;
+    background-color:blueviolet;
+}

@@ -1,0 +1,87 @@
+.div {
+    height: 600px;
+    width: 1300px;
+    border: 2px solid black;
+    position: relative;
+  }
+  .p1 {
+    font-size: 50px;
+    animation-name: ccc;
+    position: absolute;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; 
+  }
+  @keyframes ccc {
+    from {
+      left: 0px;
+      top: 0px;
+    }
+    to {
+      left: 1198px;
+      top: 100px;
+    }
+  }
+  .p2 {
+    font-size: 50px;
+    animation-name: ccd;
+    position: absolute;
+    left: 1196px;
+    top: 100px;
+    animation-duration: 4s;
+    /* animation-delay: 5s; */
+    animation-iteration-count: infinite; 
+    animation-direction: alternate; 
+  }
+  @keyframes ccd {
+    from {
+      left: 1196px;
+      top: 100px;
+    }
+    to {
+      left: 0px;
+      top: 300px;
+    }
+  }
+  .p3 {
+    font-size: 50px;
+    animation-name: cdc;
+    animation-duration: 4s;
+    /* animation-delay: 10s; */
+    position: absolute;
+    left: 0px;
+    top: 300px;
+    animation-iteration-count: infinite; 
+    animation-direction: alternate; 
+  }
+  @keyframes cdc {
+    from {
+      left: 0px;
+      top: 300px;
+    }
+    to {
+      left: 1196px;
+      top: 492px;
+    }
+  }
+  .p4 {
+    font-size: 50px;
+    animation-name: dcc;
+    position: absolute;
+    left: 1196px;
+    top: 492px;
+    animation-duration: 4s;
+    /* animation-delay: 15s; */
+    animation-iteration-count: infinite; 
+    animation-direction: alternate; 
+  }
+  @keyframes dcc {
+    from {
+      left: 1196px;
+      top: 492px;
+    }
+    to {
+      left: 0px;
+      top: 0px;
+    }
+  }

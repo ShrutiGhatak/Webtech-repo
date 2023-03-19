@@ -1,0 +1,10 @@
+div{
+    height: 200px;
+    width: 200px;
+    border: solid 2px maroon;
+    background-color: rgb(241, 126, 241);
+    outline-width: 4px;
+    outline-style: solid;
+    outline-color: blue;
+    outline-offset: 5px;
+}

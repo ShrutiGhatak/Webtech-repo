@@ -1,0 +1,15 @@
+div2 {
+    height: 300px;
+    width: 700px;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px;
+    gap: 99px;
+    justify-content: space-between;
+    align-content: space-between;
+  }
+  .d {
+    border: 2px solid black;
+    border-radius: 50%;
+  }

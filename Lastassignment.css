@@ -1,0 +1,16 @@
+#div3 {
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 100px 100px;
+    justify-content: space-between;
+    align-content: space-between;
+  }
+  .e {
+    border: 2px solid black;
+    border-radius: 50%;
+  }
+ 
+  

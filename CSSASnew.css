@@ -1,0 +1,25 @@
+div{
+    height: 300px;
+    width: 600px;
+    margin: 100px auto;
+    border-radius: 50%;
+    box-shadow: 0px 0px 30px purple;
+    
+
+}
+form{
+    padding: 80px 160px;
+}
+#a1{
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px purple;
+
+}
+#a2{
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px purple;
+
+}
+label{
+    color: purple;
+}

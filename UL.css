@@ -1,0 +1,31 @@
+#a1:link{
+    color:red;
+}
+#a2:visited{
+    color: aqua;
+}
+#a1:active{
+    color:coral;
+}
+#a3{
+   height: 200px;
+   width: 200px;
+   border: 2px solid red;
+}
+#a3:hover{
+    background-image: url(https://i.pinimg.com/originals/09/3a/c3/093ac3811dcd4f170d91df02995905fe.jpg);
+    background-position: center;
+    background-size: cover;
+}
+h1::first-letter{
+    font-size: 100px;
+    color: darkred;
+}
+p::first-line{
+    color: darkorange;
+}
+#a4::selection{
+    background-color: crimson;
+    color: darkmagenta;
+    font-size: 50px;
+}

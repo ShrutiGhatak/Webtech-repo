@@ -1,0 +1,110 @@
+/* *{
+    box-sizing: border-box;
+    padding: 0%;
+    margin:0%;
+    color:darkorchid;
+}
+div{
+    border:2px solid black;
+    background-color:aqua;
+    height:200px;
+    width:300px;
+    /* position:absolute;
+    left: 25px;
+    top:25px; 
+    outline-width: 4px;
+    outline-style: double;
+    outline-color: blue;
+    outline-offset: 12px;
+    transform: skew(45deg);
+    overflow:scroll;
+    
+}
+p{
+    padding-left: 15px;
+    padding-top: 15px;
+    text-align: left;
+    text-decoration: underline dotted;
+    text-decoration-color: brown;
+    text-decoration-style: wavy;
+    text-indent: 57px;
+}  */
+#a{
+    border:2px solid black;
+    background-color:aqua;
+    height:200px;
+    width:300px;
+    position: relative;
+    left:45px;
+}
+#b{
+    border:2px solid black;
+    background-color:red;
+    height:20px;
+    width:30px;
+    border-radius: 50%;
+    position:absolute;
+    left:25px;
+    animation-name: abc;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes abc{
+    from{
+        left:25px;
+        top:0; 
+    }
+    to{
+        left:122px;
+        top:134px;
+    }
+}
+#c{
+        border:2px solid black;
+        background-image: conic-gradient(red,yellow,blue,green,black);
+        height:200px;
+        width:300px;
+        position: relative;
+        left:45px;
+
+}
+#d{
+    /* display: grid; */
+    display:flex;
+    flex-wrap: wrap;
+    height:800px;
+    width:300px;
+    border:2px solid black;
+    /* grid-template-columns: 55px 55px 55px;
+    grid-template-rows: 55px 55px 55px;
+    justify-content: space-around;
+    align-content: space-around;
+    gap: 2px; */
+    justify-content: center;
+    /* align-content: center; */
+    align-items: center;
+}
+#d>div{
+    border:2px solid black;
+}
+div{
+    height:100px;
+    width:100px;
+}
+#e{
+    height:500px;
+    width:300px;
+    border:2px solid black;
+    position: relative;
+    left:300px;
+}
+#f{
+    height:300px;
+    width:200px;
+    border:2px solid black;
+    position: absolute;
+    transform: skew(45deg);
+    top:65px;
+}
